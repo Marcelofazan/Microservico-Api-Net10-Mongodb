@@ -22,7 +22,7 @@ Após Clicar com botão inverso no projeto Inventário e selecionar Definir proj
 Builder da WebAPI Inventario **(https://localhost:7012/api/Items)** ou **(https://localhost:7012/swagger/index.html)**
 
 #### 🧪 Executar os Endpoints
-- Enviar POST / Catalogo para criação do banco Entity: **https://localhost:7026/api/items/**, selecionar Guia Body e enviar RAW e enviar o seguinte JSON 
+- Enviar POST / Catalogo para criação do banco Entity: **https://localhost:7026/api/items/**, selecionar Guia Body e enviar RAW e enviar o seguinte Content-Type: application/json
 
 ```json
 {
@@ -32,7 +32,7 @@ Builder da WebAPI Inventario **(https://localhost:7012/api/Items)** ou **(https:
 }
 ```
 
-- Enviar POST / Inventário para criação do banco Entity: **https://localhost:7012/api/Items**, selecionar Guia Body e enviar RAW e enviar o seguinte JSON 
+- Enviar POST / Inventário para criação do banco Entity: **https://localhost:7012/api/Items**, selecionar Guia Body e enviar RAW e enviar o seguinte Content-Type: application/json
 ```json
 {
     "UserId" : "a4ce3b13-acef-2cd2-8855-89cfaaac5224",
