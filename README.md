@@ -13,10 +13,13 @@ Exemplo de criação de API de Arquitetura Distribuída, desenvolvida em .NET 10
 
 Necessário acomplamento de serviços, o Inventário depende da execução de Catalogo.
 
-- Executar WebAPI Catalogo para cadastro de produtos: 
--Builder da WebAPI Catalogo **(https://localhost:7026/api/items/)** ou **(https://localhost:7026/swagger/index.html)**
 
-Após Clicar com botão inverso no projeto Inventário e selecionar Definir projeto de de Inicialiação. 
+#### 🔄 Executar a Aplicação
+
+Necessário duas vezes (Definir projeto de de Inicialiação).
+
+- Executar WebAPI Catalogo para cadastro de produtos: 
+Builder da WebAPI Catalogo **(https://localhost:7026/api/items/)** ou **(https://localhost:7026/swagger/index.html)**
 
 - Executar WebAPI Inventário, ela dependendo de localhost de WebAPI de Catalogo.  
 Builder da WebAPI Inventario **(https://localhost:7012/api/Items)** ou **(https://localhost:7012/swagger/index.html)**
