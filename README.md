@@ -5,6 +5,7 @@ Exemplo de criação de API de Arquitetura Distribuída, desenvolvida em .NET 10
 
 | Tecnologia | Descrição |
 |-----------|-----------|
+| **Arquitetura distribuída**| É um modelo executado em diferentes servidores conectados em rede, conversando entre si para parecer único sistema |
 | **IRepository<T>**| Implementação de um repositório genérico focado no MongoDB, será criado um banco de dados para cada projeto WebAPI |
 | **Nuget**  | Criação de pacote NuGet para estratégia (DRY), para evitar repetição de código no compartilhamento entre microserviços. |
 
