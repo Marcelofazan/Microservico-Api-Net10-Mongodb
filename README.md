@@ -42,7 +42,7 @@ Builder da WebAPI Inventario **(https://localhost:7012/api/Items)** ou **(https:
 }
 ```
 
-#### 📦 Pacote Nugget
+#### 📦 Pacote Nuget
 
 - O Projeto Pacote foi compilado e hospedado em **(nuget.org)** para ser usado no projeto com o comando **(using Pacote;)** 
 - [Criar e publicar um pacote NuGet usando o Visual Studio](https://learn.microsoft.com/pt-br/nuget/quickstart/create-and-publish-a-package-using-visual-studio?tabs=netcore-cli)
