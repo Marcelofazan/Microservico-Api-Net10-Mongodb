@@ -7,16 +7,13 @@ Exemplo de criação de API de Arquitetura Distribuída, desenvolvida em .NET 10
 |-----------|-----------|
 | **Arquitetura distribuída**| É um modelo executado em diferentes servidores conectados em rede, conversando entre si para parecer único sistema |
 | **IRepository<T>**| Implementação de um repositório genérico focado no MongoDB, será criado um banco de dados para cada projeto WebAPI |
-| **Nuget**  | Criação de pacote NuGet para estratégia (DRY), para evitar repetição de código no compartilhamento entre microserviços. |
+| **Pacote Nuget**| Criação de pacote NuGet para estratégia (DRY), para evitar repetição de código no compartilhamento entre microserviços.|
 
-#### Requisitos do Projeto
+#### 📁 Requisitos do Projeto
+- Necessário acomplamento de serviços, o Inventário depende da execução de Catalogo.
 - Necessário servidor MongoDB local instalado **(localhost:27017)**
 
-Necessário acomplamento de serviços, o Inventário depende da execução de Catalogo.
-
-
 #### 🔄 Executar a Aplicação
-
 Necessário duas vezes (Definir projeto de de Inicialiação).
 
 - Executar WebAPI Catalogo para cadastro de produtos: 
@@ -45,5 +42,7 @@ Builder da WebAPI Inventario **(https://localhost:7012/api/Items)** ou **(https:
 }
 ```
 
-📦 O Projeto Pacote foi compilado e hospedado em **(nuget.org)** para ser usado como **(using Pacote;)** 
+#### 📦 Pacote Nugget
+
+- O Projeto Pacote foi compilado e hospedado em **(nuget.org)** para ser usado no projeto com o comando **(using Pacote;)** 
 - [Criar e publicar um pacote NuGet usando o Visual Studio](https://learn.microsoft.com/pt-br/nuget/quickstart/create-and-publish-a-package-using-visual-studio?tabs=netcore-cli)
