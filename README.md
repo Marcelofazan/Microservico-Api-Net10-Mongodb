@@ -1,5 +1,5 @@
 ## 🚀 Microservico-Api10-Mongodb
-Exemplo de API de Arquitetura Distribuída em C# ASP.NET 10 com banco de dados MongoDB.
+Exemplo de Microserviços com API Arquitetura Distribuída em C# ASP.NET 10 com banco de dados MongoDB.
 
 #### 📋 O que você vai encontrar neste projeto
 
