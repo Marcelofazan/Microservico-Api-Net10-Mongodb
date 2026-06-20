@@ -9,9 +9,9 @@ Exemplo de API microserviços de arquitetura distribuída em C# ASP.NET 10 com b
 | **IRepository<T>**| Implementação de um repositório genérico focado no MongoDB, será criado um banco de dados para cada projeto WebAPI |
 | **Pacote Nuget**| Criação de pacote NuGet para estratégia (DRY), para evitar repetição de código no compartilhamento entre microserviços.|
 
-#### Requisitos do Projeto
+#### 💬 Requisitos do Projeto
 - Necessário acomplamento de serviços, o Inventário depende da execução de Catalogo.
-- Necessário servidor MongoDB local instalado **(localhost:27017)**
+- Necessário Servidor MongoDB Local **(localhost:27017)**
 
 #### 🔄 Executar a Aplicação
 Necessário duas vezes (Definir projeto de de Inicialiação).
