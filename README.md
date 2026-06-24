@@ -11,11 +11,9 @@ Exemplo de API microserviços de arquitetura distribuída em C# ASP.NET 10 com b
 
 #### 💬 Requisitos do Projeto
 - Necessário acomplamento de serviços, o Inventário depende da execução de Catalogo.
-- Necessário Servidor MongoDB Local **(localhost:27017)**
 
-#### 🔄 Executar a Aplicação
-Necessário duas vezes (Definir projeto de de Inicialiação).
-
+#### 🔄 Executar a aplicação
+VSCode Terminal [1]
 - Executar API Catalogo para cadastro de produtos: 
 
 | HOST | URL |
@@ -23,6 +21,7 @@ Necessário duas vezes (Definir projeto de de Inicialiação).
 | **API**  |(https://localhost:7026/api/items/) |
 | **Swagger** |(https://localhost:7026/swagger/index.html) |
 
+VSCode Terminal [2]
 - Executar API Inventário, ela depende de API de Catalogo.  
 
 | HOST | URL |
@@ -52,7 +51,7 @@ Necessário duas vezes (Definir projeto de de Inicialiação).
 
 #### ⚙️ Configuração Pacote Nuget
 
- O Projeto Pacote foi compilado e hospedado em **(nuget.org)** para ser usado no projeto com o comando **(using Pacote;)** 
+ O Projeto **Pacote** foi compilado e hospedado em **(nuget.org)** para ser usado no projeto com **(using Pacote)**.
  
  [Criar e publicar um pacote NuGet usando o Visual Studio](https://learn.microsoft.com/pt-br/nuget/quickstart/create-and-publish-a-package-using-visual-studio?tabs=netcore-cli)
   
